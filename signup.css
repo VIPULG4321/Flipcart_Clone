@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#outerbox{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+}
+#innerbox{
+    display: flex;
+    background-color: white;
+    width: 60%;
+    height: 600px;
+}
+
+.leftinnerbox{
+    background-color: #2874F0;
+    color: white;
+    width: 45%;
+    height: inherit;
+}
+
+.rightinnerbox{
+    font-family: sans-serif;
+    
+    align-items: center;
+}
+
+.phone{
+    width: 70%; height: 25px; margin-top: 60px; font-size: 1rem; outline: 0; border-width: 0 0 2px 0;
+}
+.phone:focus{
+    border-color: black;
+}
+.name{
+    width: 70%; height: 25px; margin-top: 26px; font-size: 1rem;  outline: 0; border-width: 0 0 2px 0;
+}
+.name:focus{
+    border-color: black;
+}
+.pass{
+    width: 70%; height: 25px; margin-top: 26px; font-size: 1rem;  outline: 0; border-width: 0 0 2px 0;
+}
+.pass:focus{
+    border-color: black;
+}
+
+.continue{
+    border: none; background-color: #FB641B; color: white; font-weight: 600;font-size: 20px; width: 90%; padding: 10px;margin: 0 1rem; border-radius: 5px;
+}
+.continue:hover{
+    cursor: pointer;
+}

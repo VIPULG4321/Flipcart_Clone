@@ -1,0 +1,80 @@
+#products{
+    display: flex;
+}
+
+#topmenu {
+    display: flex;
+    margin: 2rem;
+}
+
+#topmenu > span{
+    display: flex;
+    padding: 5px;
+    margin:  5px;
+}
+
+#collection{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);  
+    gap: 20px;
+}
+
+#collection > div {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+.avatar{
+    width: 90%;
+    height: 300px;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerbox{
+    font-family: sans-serif;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-flow: row, start; */
+    padding-right: 60%;
+    /* gap: 1rem; */
+    padding-bottom: 5px;
+}
+
+.price1{
+    margin-right : 10px;
+    margin-left: 2rem;
+}
+
+.price2{
+    text-decoration: line-through;
+}
+
+.brand_name{
+    display: flex;
+    padding-right: 70%;
+    margin: 5px;
+    font-family: sans-serif;
+    color: #959595;
+}
+
+.price_sort{
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border: 0;
+    font-family: inherit;
+    font-size: inherit;
+}
+.price_sort:hover{
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(40, 116, 240);
+}

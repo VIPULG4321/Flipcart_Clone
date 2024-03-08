@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./product.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <div id="container"></div>
+
+    <section id="products" style="max-width: 100%;">
+      <div style="width: 22%; border: 1px solid black; display: flex;">Filters</div>
+      <div style="width: 75%;"> <!--height: 100vh -->
+        <div style="display: flex; font-family: 'Courier New', Courier, monospace;" id="topmenu">
+          <span> Sort By </span>
+          <!-- <button type="button" style="width: 5rem; outline: 0; border: 0; font-family: inherit; font-size: 16px;">Popularity</button> -->
+          <div style="display: flex; margin-left: 1rem;">
+            <button type="button" class="price_sort">Popularity</button>
+            <button type="button" class="price_sort">Price -- Low to High</button>
+            <button type="button" class="price_sort">Price -- High to Low</button>
+          </div>
+        </div>
+
+        <div id="collection">     <!--style="display: flex; flex-direction: row;"--> 
+
+          <!-- collection of all items here -->
+
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="footer">
+      <div>
+        <p>ABOUT</p>
+        <li>Contact us</li>
+        <li>About us</li>
+        <li>careers</li>
+        <li>Flipcart stories</li>
+        <li>Press</li>
+        <li>flipcart Wholesale</li>
+        <li>Clertrip</li>
+        <li></li>
+        <li>Corporate Information</li>
+      </div>
+      <div>
+        <p>HELP</p>
+        <li>Payment</li>
+        <li>Shoping</li>
+        <li>Cancellation and returns</li>
+        <li>FAQ</li>
+        <li>Report Infringement</li>
+      </div>
+
+      <div>
+        <p>CONSUMER POLICY</p>
+        <li>Cancellation and returns</li>
+        <li>Terms of use</li>
+        <li>Security</li>
+        <li>Sitemap</li>
+        <li>Grievence Redressal</li>
+        <li>EPR Compliance</li>
+      </div>
+
+      <div>
+        <p>SOCIAL</p>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>YouTube</li>
+      </div>
+
+      <div>
+        <p>Mail us</p>
+        <li>
+          Flipkart Internet Private Limited,<br />
+          Buildings Alyssa, Begonia & <br />
+          Clove Embassy Tech Village, <br />
+          Outer Ring Road, Devarabeesanahalli Village,<br />
+          Bengaluru, 560103, <br />
+          Karnataka, India
+        </li>
+      </div>
+      <div>
+        <p>Registered office address :</p>
+        <li>
+          Flipkart Internet Private Limited,<br />
+          Buildings Alyssa, Begonia & <br />
+          Clove Embassy Tech Village, <br />
+          Outer Ring Road, Devarabeesanahalli Village,<br />
+          Bengaluru, 560103, <br />
+          Karnataka, India <br />
+          CIN: U51109KA2012PTC066107 <br />
+          Telephone: <a href="tel:+4733378901">044-45614700</a>
+        </li>
+      </div>
+    </section>
+  </body>
+</html>
+
+<script>
+  $(function () {
+    $("#container").load("./navbar.html");
+  });
+</script>
+<script src="./product.js"></script>

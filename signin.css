@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#outerbox{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+}
+#innerbox{
+    display: flex;
+    background-color: white;
+    width: 60%;
+    height: 600px;
+}
+
+.leftinnerbox{
+    background-color: #2874F0;
+    color: white;
+    width: 45%;
+    height: inherit;
+}
+
+.rightinnerbox{
+    font-family: sans-serif;
+    
+    align-items: center;
+}

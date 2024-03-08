@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <div id="container"></div>
+
+    <div id="outerbox">
+        <div id="innerbox">
+            <div class="leftinnerbox">
+                <p style="font-family: sans-serif; font-weight: 700; font-size: 30px;padding: 2rem;">
+                    Looks like you're new here!
+                </p>
+                <p style="font-family: sans-serif;font-weight: -500; font-size: 18px; padding: 1rem 2rem;">
+                    Sign up with your mobile number to get started
+                </p>
+                <div style="display: flex;flex-direction: column;align-items: center;justify-content: center;margin-top: 30px;width: 75%;">
+                    <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png" alt="hero_signup">
+                </div>  
+            </div>
+
+            <div class="rightinenrbox">
+                
+                <div style="display: flex; justify-content: center;">
+                    <input id="phone" type="number" placeholder="Enter Mobile Number" class="phone">
+                </div>
+
+                <div style="display: flex; justify-content: center;">
+                    <input id="name" type="text" placeholder="Enter your name" class="name">
+                </div>
+
+                <div style="display: flex; justify-content: center;">
+                    <input id="pass" type="password" placeholder="Enter password" class="pass">
+                </div>
+
+                <div style="margin: 2rem 0 1rem 1rem;">
+                    <p>
+                        By continuing, you agree to Flipkart's <span style="color: #2874F0; font-size: 17px;">Terms of use</span> and <span style="color: #2874F0; font-size: 17px;">Privacy Policy</span>.
+                    </p>
+                </div>
+                <div style="display: flex; justify-content: center;">
+                    <button class="continue" onclick="Signup()">CONTINUE</button>
+                </div>
+                <div style="display: flex; justify-content: center;">
+                    <button style="border: none; background-color: rgb(243, 236, 236); color: #2874F0; font-weight: 500;font-size: 20px; width: 90%; padding: 10px;margin: 1rem 1rem; border-radius: 5px; cursor: pointer;" onclick="redirect_signin()">Existing User? Login</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    $(function(){
+        $("#container").load("./navbar.html");
+    });
+</script>
+<script src="signup.js"></script>
